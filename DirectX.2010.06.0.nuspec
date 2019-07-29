@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DirectX</id>
+    <version>2010.06.0</version>
+    <title>DirectX</title>
+    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=6812</projectUrl>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>2010 DirectX SDK Headers and libraries</description>
+    <summary>2010 DirectX SDK Headers and libraries</summary>
+    <copyright></copyright>
+    <language>en-GB</language>
+    <tags>DirectX</tags>
+  </metadata>
+  <files>
+    <file src="src\include\**" target="src\include" />
+    <file src="lib\**" target="lib\native" />
+  </files>
+</package>
